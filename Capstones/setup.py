@@ -1,0 +1,41 @@
+from setuptools import setup
+
+setup(
+    name="Capstones",
+    version="1.0.0",
+    py_modules=[
+            'Chapter1',
+            'Chapter2',
+            'Chapter3',
+            'Chapter4',
+            'Chapter5',
+            'confirmPlay',
+            'Content_Management_Main_page',
+            'createQuiz',
+            'database_conn',
+            'deleteQuiz',
+            'editNotes',
+            'editQuiz',
+            'game_level',
+            'Lecturer_Home_page',
+            'levelSelection',
+            'login',
+            'Navigation_Bar',
+            'options',
+            'quizHistory',
+            'shop',
+            'Student_Analytics',
+            'Theme_Shop',
+            'UserData'
+        ],
+    install_requires=[
+        "pygame>=2.5.0",
+        "pyodbc>=4.0.39",
+        "Pillow>=10.0.0",
+        "PyQt5>=5.15.9",
+        "matplotlib>=3.7.0",
+        "numpy>=1.24.0",
+        "subprocess32>=3.5.4",  # For subprocess management
+    ],
+    python_requires=">=3.8",
+)
